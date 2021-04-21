@@ -9,6 +9,8 @@ import router from "./router";
    domain,
    client_id,
    redirect_uri,
+   audience: "https://expenses-api",
+   scope: "read:reports",
 });
 
   // handle user navigation
